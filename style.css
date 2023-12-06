@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
+.header {
+    background-color: #e6ffe6;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    width: 70%; /* Fixed width */
+    margin: auto;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #e6ffe6;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu {
+    background-color: #600080;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #e0b3ff;
+    color: black;
+}
+
+/* Add the following to prevent the floated menu items from affecting layout */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
